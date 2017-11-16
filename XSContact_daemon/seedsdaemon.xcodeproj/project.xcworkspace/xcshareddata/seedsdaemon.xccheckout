@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2E47D3DC-318B-43E6-A285-22B165BD21F3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>seedsdaemon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>390C9AD9-0AF2-44D3-8F6B-E7FE2A78BDFA</key>
+		<string>svn://192.168.2.18/IOSProject/14_Code_Integration_Phase/XSContact</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>seedsdaemon/seedsdaemon.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>390C9AD9-0AF2-44D3-8F6B-E7FE2A78BDFA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>390C9AD9-0AF2-44D3-8F6B-E7FE2A78BDFA</key>
+		<string>svn://192.168.2.18</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://192.168.2.18/IOSProject/14_Code_Integration_Phase/XSContact/seedsdaemon/seedsdaemon.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>390C9AD9-0AF2-44D3-8F6B-E7FE2A78BDFA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>390C9AD9-0AF2-44D3-8F6B-E7FE2A78BDFA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XSContact</string>
+		</dict>
+	</array>
+</dict>
+</plist>

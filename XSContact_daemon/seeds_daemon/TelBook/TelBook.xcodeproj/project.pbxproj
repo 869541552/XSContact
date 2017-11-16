@@ -1,0 +1,84 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4321231C174F9E0C00264361 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../config.h; sourceTree = "<group>"; };
+		4321231D174F9E0C00264361 /* iTestDaemonManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iTestDaemonManager.h; path = ../iTestDaemonManager.h; sourceTree = "<group>"; };
+		43212323174F9E0C00264361 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = ../main.mm; sourceTree = "<group>"; };
+		43212324174F9E0C00264361 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../Makefile; sourceTree = "<group>"; };
+		43212326174F9E0C00264361 /* Package */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Package; path = ../Package; sourceTree = "<group>"; };
+		43212327174F9E0C00264361 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PackageVersion.plist; path = ../PackageVersion.plist; sourceTree = "<group>"; };
+		4321232A174F9F1500264361 /* iTestDaemonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iTestDaemonManager.m; path = ../iTestDaemonManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		43212314174F9DE500264361 = {
+			isa = PBXGroup;
+			children = (
+				4321231C174F9E0C00264361 /* config.h */,
+				4321231D174F9E0C00264361 /* iTestDaemonManager.h */,
+				4321232A174F9F1500264361 /* iTestDaemonManager.m */,
+				43212323174F9E0C00264361 /* main.mm */,
+				43212324174F9E0C00264361 /* Makefile */,
+				43212326174F9E0C00264361 /* Package */,
+				43212327174F9E0C00264361 /* PackageVersion.plist */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		43212315174F9DE500264361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 43212318174F9DE500264361 /* Build configuration list for PBXProject "TelBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43212314174F9DE500264361;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		43212319174F9DE500264361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4321231A174F9DE500264361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43212318174F9DE500264361 /* Build configuration list for PBXProject "TelBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43212319174F9DE500264361 /* Debug */,
+				4321231A174F9DE500264361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43212315174F9DE500264361 /* Project object */;
+}

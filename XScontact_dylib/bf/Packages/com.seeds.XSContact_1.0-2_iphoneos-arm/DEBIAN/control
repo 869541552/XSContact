@@ -1,0 +1,17 @@
+Package: com.seeds.XSContact
+Name: Seeds通讯增强工具
+Version: 1.0-2
+Description: 
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: gyanping
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+

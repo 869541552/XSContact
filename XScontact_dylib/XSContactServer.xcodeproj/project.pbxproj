@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		108E3FD31839B11F00929BE1 /* TelephonyUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 108E3FD21839B11F00929BE1 /* TelephonyUtil.h */; };
+		108E3FD51839B16F00929BE1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108E3FD41839B16F00929BE1 /* CoreTelephony.framework */; };
+		10D99E2D1821F1A90016286D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D99E2C1821F1A90016286D /* Foundation.framework */; };
+		10D99E381821F1A90016286D /* XSContactServer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10D99E371821F1A90016286D /* XSContactServer.mm */; };
+		10D99E461821F2060016286D /* CFDaemonManger.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D99E421821F2060016286D /* CFDaemonManger.h */; };
+		10D99E471821F2060016286D /* CFDaemonManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D99E431821F2060016286D /* CFDaemonManger.m */; };
+		10D99E481821F2060016286D /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D99E441821F2060016286D /* config.h */; };
+		10D99E491821F2060016286D /* SpringBoardServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D99E451821F2060016286D /* SpringBoardServices.h */; };
+		10D99E4B1821F2280016286D /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D99E4A1821F2280016286D /* libsubstrate.dylib */; };
+		10D99E4D1821F2390016286D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D99E4C1821F2390016286D /* UIKit.framework */; };
+		10D99E4F1821F2480016286D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D99E4E1821F2480016286D /* libsqlite3.0.dylib */; };
+		10D99E58182209AC0016286D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D99E57182209AC0016286D /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		108E3FD21839B11F00929BE1 /* TelephonyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelephonyUtil.h; sourceTree = "<group>"; };
+		108E3FD41839B16F00929BE1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		10D99E291821F1A90016286D /* XSContactServer.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = XSContactServer.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D99E2C1821F1A90016286D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10D99E311821F1A90016286D /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		10D99E321821F1A90016286D /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		10D99E341821F1A90016286D /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		10D99E351821F1A90016286D /* XSContactServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XSContactServer-Prefix.pch"; sourceTree = "<group>"; };
+		10D99E361821F1A90016286D /* XSContactServer.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = XSContactServer.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		10D99E371821F1A90016286D /* XSContactServer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = XSContactServer.mm; sourceTree = "<group>"; };
+		10D99E3C1821F1A90016286D /* XSContactServer.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = XSContactServer.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/XSContactServer.plist; sourceTree = "<group>"; };
+		10D99E421821F2060016286D /* CFDaemonManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFDaemonManger.h; sourceTree = "<group>"; };
+		10D99E431821F2060016286D /* CFDaemonManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFDaemonManger.m; sourceTree = "<group>"; };
+		10D99E441821F2060016286D /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		10D99E451821F2060016286D /* SpringBoardServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringBoardServices.h; sourceTree = "<group>"; };
+		10D99E4A1821F2280016286D /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		10D99E4C1821F2390016286D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10D99E4E1821F2480016286D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		10D99E57182209AC0016286D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10D99E251821F1A90016286D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108E3FD51839B16F00929BE1 /* CoreTelephony.framework in Frameworks */,
+				10D99E58182209AC0016286D /* CoreFoundation.framework in Frameworks */,
+				10D99E4F1821F2480016286D /* libsqlite3.0.dylib in Frameworks */,
+				10D99E4D1821F2390016286D /* UIKit.framework in Frameworks */,
+				10D99E2D1821F1A90016286D /* Foundation.framework in Frameworks */,
+				10D99E4B1821F2280016286D /* libsubstrate.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10D99E1E1821F1A90016286D = {
+			isa = PBXGroup;
+			children = (
+				10D99E2E1821F1A90016286D /* XSContactServer */,
+				10D99E2B1821F1A90016286D /* Frameworks */,
+				10D99E2A1821F1A90016286D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10D99E2A1821F1A90016286D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10D99E291821F1A90016286D /* XSContactServer.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10D99E2B1821F1A90016286D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10D99E4E1821F2480016286D /* libsqlite3.0.dylib */,
+				108E3FD41839B16F00929BE1 /* CoreTelephony.framework */,
+				10D99E57182209AC0016286D /* CoreFoundation.framework */,
+				10D99E4C1821F2390016286D /* UIKit.framework */,
+				10D99E4A1821F2280016286D /* libsubstrate.dylib */,
+				10D99E2C1821F1A90016286D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10D99E2E1821F1A90016286D /* XSContactServer */ = {
+			isa = PBXGroup;
+			children = (
+				108E3FD21839B11F00929BE1 /* TelephonyUtil.h */,
+				10D99E441821F2060016286D /* config.h */,
+				10D99E421821F2060016286D /* CFDaemonManger.h */,
+				10D99E431821F2060016286D /* CFDaemonManger.m */,
+				10D99E451821F2060016286D /* SpringBoardServices.h */,
+				10D99E361821F1A90016286D /* XSContactServer.xm */,
+				10D99E371821F1A90016286D /* XSContactServer.mm */,
+				10D99E2F1821F1A90016286D /* Package */,
+				10D99E331821F1A90016286D /* Supporting Files */,
+			);
+			path = XSContactServer;
+			sourceTree = "<group>";
+		};
+		10D99E2F1821F1A90016286D /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				10D99E301821F1A90016286D /* DEBIAN */,
+				10D99E391821F1A90016286D /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		10D99E301821F1A90016286D /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				10D99E311821F1A90016286D /* control.txt */,
+				10D99E321821F1A90016286D /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		10D99E331821F1A90016286D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10D99E341821F1A90016286D /* PackageVersion.plist */,
+				10D99E351821F1A90016286D /* XSContactServer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10D99E391821F1A90016286D /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				10D99E3A1821F1A90016286D /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		10D99E3A1821F1A90016286D /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				10D99E3B1821F1A90016286D /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		10D99E3B1821F1A90016286D /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				10D99E3C1821F1A90016286D /* XSContactServer.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10D99E261821F1A90016286D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D99E461821F2060016286D /* CFDaemonManger.h in Headers */,
+				10D99E481821F2060016286D /* config.h in Headers */,
+				10D99E491821F2060016286D /* SpringBoardServices.h in Headers */,
+				108E3FD31839B11F00929BE1 /* TelephonyUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10D99E281821F1A90016286D /* XSContactServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10D99E3F1821F1A90016286D /* Build configuration list for PBXNativeTarget "XSContactServer" */;
+			buildPhases = (
+				10D99E231821F1A90016286D /* ShellScript */,
+				10D99E241821F1A90016286D /* Sources */,
+				10D99E251821F1A90016286D /* Frameworks */,
+				10D99E261821F1A90016286D /* Headers */,
+				10D99E271821F1A90016286D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XSContactServer;
+			productName = XSContactServer;
+			productReference = 10D99E291821F1A90016286D /* XSContactServer.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10D99E1F1821F1A90016286D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 10D99E221821F1A90016286D /* Build configuration list for PBXProject "XSContactServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10D99E1E1821F1A90016286D;
+			productRefGroup = 10D99E2A1821F1A90016286D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10D99E281821F1A90016286D /* XSContactServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10D99E231821F1A90016286D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		10D99E271821F1A90016286D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10D99E241821F1A90016286D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D99E381821F1A90016286D /* XSContactServer.mm in Sources */,
+				10D99E471821F2060016286D /* CFDaemonManger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10D99E3D1821F1A90016286D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		10D99E3E1821F1A90016286D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		10D99E401821F1A90016286D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XSContactServer/XSContactServer-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		10D99E411821F1A90016286D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XSContactServer/XSContactServer-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10D99E221821F1A90016286D /* Build configuration list for PBXProject "XSContactServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10D99E3D1821F1A90016286D /* Debug */,
+				10D99E3E1821F1A90016286D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10D99E3F1821F1A90016286D /* Build configuration list for PBXNativeTarget "XSContactServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10D99E401821F1A90016286D /* Debug */,
+				10D99E411821F1A90016286D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10D99E1F1821F1A90016286D /* Project object */;
+}

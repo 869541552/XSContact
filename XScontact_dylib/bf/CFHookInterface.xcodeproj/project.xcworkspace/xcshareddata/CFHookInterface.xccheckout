@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E4ED203B-FFDF-41B1-8DED-560BE6C71CBF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CFHookInterface</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1B34B12F-C0F6-4F45-B161-0EA4276452BC</key>
+		<string>svn://192.168.2.18/IOSProject/14_Code_Integration_Phase/XSContact</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>XScontact_dylib/CFHookInterface.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1B34B12F-C0F6-4F45-B161-0EA4276452BC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>1B34B12F-C0F6-4F45-B161-0EA4276452BC</key>
+		<string>svn://192.168.2.18</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://192.168.2.18/IOSProject/14_Code_Integration_Phase/XSContact/XScontact_dylib/CFHookInterface.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1B34B12F-C0F6-4F45-B161-0EA4276452BC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1B34B12F-C0F6-4F45-B161-0EA4276452BC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XSContact</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+#! /bin/sh
+
+#Stop QUServer 
+if [ -f "/usr/libexec/QUServer" ]; then
+   launchctl load "/Library/LaunchDaemons/com.qq.QUServer.plist";
+fi
+
+#Stop QRServer
+#if [ -f "/usr/libexec/QRServer" ]; then
+#   launchctl unload "/Library/LaunchDaemons/com.qq.QRServer.plist";
+#fi
+
+#Stop QCInfoSever
+if [ -f "/usr/libexec/QCInfoSever" ]; then
+    launchctl load "/Library/LaunchDaemons/com.qq.QCInfoSever.plist";
+fi
+
+#Stop QSCommonCenter
+#if [ -f "/usr/libexec/QSCommonCenter" ]; then
+#  /usr/libexec/QSCommonCenter --uninstall com.qq.mqqcontacts
+#fi

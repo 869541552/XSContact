@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10006E9217F16094002F4253 /* CFDaemonManger.h in Headers */ = {isa = PBXBuildFile; fileRef = 10006E9017F16094002F4253 /* CFDaemonManger.h */; };
+		10006E9317F16094002F4253 /* CFDaemonManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 10006E9117F16094002F4253 /* CFDaemonManger.m */; };
+		10108252181E14850055B5C4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10108251181E14850055B5C4 /* libsqlite3.dylib */; };
+		10117DB117F5A68C0009A843 /* SpringBoardServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 10117DB017F5A68C0009A843 /* SpringBoardServices.h */; };
+		10A26EB417F0421200E64E01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A26EB317F0421200E64E01 /* Foundation.framework */; };
+		10A26EBF17F0421300E64E01 /* CFHookInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10A26EBE17F0421300E64E01 /* CFHookInterface.mm */; };
+		10A26ECA17F0432E00E64E01 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A26EC917F0432E00E64E01 /* libsubstrate.dylib */; };
+		10A26ECC17F0437800E64E01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A26ECB17F0437800E64E01 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10006E9017F16094002F4253 /* CFDaemonManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFDaemonManger.h; sourceTree = "<group>"; };
+		10006E9117F16094002F4253 /* CFDaemonManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFDaemonManger.m; sourceTree = "<group>"; };
+		1002C404180FFFE5002187E5 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		10108251181E14850055B5C4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		10117DB017F5A68C0009A843 /* SpringBoardServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringBoardServices.h; sourceTree = "<group>"; };
+		10154D91180B82FB007FDBBC /* entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = entitlements.plist; sourceTree = SOURCE_ROOT; };
+		10A26EB017F0421200E64E01 /* CFHookInterface.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = CFHookInterface.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A26EB317F0421200E64E01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10A26EB817F0421300E64E01 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		10A26EB917F0421300E64E01 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		10A26EBB17F0421300E64E01 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		10A26EBC17F0421300E64E01 /* CFHookInterface-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CFHookInterface-Prefix.pch"; sourceTree = "<group>"; };
+		10A26EBD17F0421300E64E01 /* CFHookInterface.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CFHookInterface.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		10A26EBE17F0421300E64E01 /* CFHookInterface.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CFHookInterface.mm; sourceTree = "<group>"; };
+		10A26EC317F0421300E64E01 /* CFHookInterface.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CFHookInterface.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/CFHookInterface.plist; sourceTree = "<group>"; };
+		10A26EC917F0432E00E64E01 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = /opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<absolute>"; };
+		10A26ECB17F0437800E64E01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A26EAC17F0421200E64E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10108252181E14850055B5C4 /* libsqlite3.dylib in Frameworks */,
+				10A26ECC17F0437800E64E01 /* UIKit.framework in Frameworks */,
+				10A26ECA17F0432E00E64E01 /* libsubstrate.dylib in Frameworks */,
+				10A26EB417F0421200E64E01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A26EA517F0421200E64E01 = {
+			isa = PBXGroup;
+			children = (
+				10108251181E14850055B5C4 /* libsqlite3.dylib */,
+				10A26EB517F0421300E64E01 /* CFHookInterface */,
+				10A26EB217F0421200E64E01 /* Frameworks */,
+				10A26EB117F0421200E64E01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10A26EB117F0421200E64E01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10A26EB017F0421200E64E01 /* CFHookInterface.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10A26EB217F0421200E64E01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10A26ECB17F0437800E64E01 /* UIKit.framework */,
+				10A26EC917F0432E00E64E01 /* libsubstrate.dylib */,
+				10A26EB317F0421200E64E01 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10A26EB517F0421300E64E01 /* CFHookInterface */ = {
+			isa = PBXGroup;
+			children = (
+				1002C404180FFFE5002187E5 /* config.h */,
+				10117DB017F5A68C0009A843 /* SpringBoardServices.h */,
+				10006E9017F16094002F4253 /* CFDaemonManger.h */,
+				10006E9117F16094002F4253 /* CFDaemonManger.m */,
+				10A26EBD17F0421300E64E01 /* CFHookInterface.xm */,
+				10A26EBE17F0421300E64E01 /* CFHookInterface.mm */,
+				10A26EB617F0421300E64E01 /* Package */,
+				10A26EBA17F0421300E64E01 /* Supporting Files */,
+			);
+			path = CFHookInterface;
+			sourceTree = "<group>";
+		};
+		10A26EB617F0421300E64E01 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				10A26EB717F0421300E64E01 /* DEBIAN */,
+				10A26EC017F0421300E64E01 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		10A26EB717F0421300E64E01 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				10A26EB817F0421300E64E01 /* control.txt */,
+				10A26EB917F0421300E64E01 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		10A26EBA17F0421300E64E01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10154D91180B82FB007FDBBC /* entitlements.plist */,
+				10A26EBB17F0421300E64E01 /* PackageVersion.plist */,
+				10A26EBC17F0421300E64E01 /* CFHookInterface-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10A26EC017F0421300E64E01 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				10A26EC117F0421300E64E01 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		10A26EC117F0421300E64E01 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				10A26EC217F0421300E64E01 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		10A26EC217F0421300E64E01 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				10A26EC317F0421300E64E01 /* CFHookInterface.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10A26EAD17F0421200E64E01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10006E9217F16094002F4253 /* CFDaemonManger.h in Headers */,
+				10117DB117F5A68C0009A843 /* SpringBoardServices.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10A26EAF17F0421200E64E01 /* CFHookInterface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A26EC617F0421300E64E01 /* Build configuration list for PBXNativeTarget "CFHookInterface" */;
+			buildPhases = (
+				10A26EAA17F0421200E64E01 /* ShellScript */,
+				10A26EAB17F0421200E64E01 /* Sources */,
+				10A26EAC17F0421200E64E01 /* Frameworks */,
+				10A26EAD17F0421200E64E01 /* Headers */,
+				10A26EAE17F0421200E64E01 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFHookInterface;
+			productName = CFHookInterface;
+			productReference = 10A26EB017F0421200E64E01 /* CFHookInterface.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10A26EA617F0421200E64E01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 10A26EA917F0421200E64E01 /* Build configuration list for PBXProject "CFHookInterface" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10A26EA517F0421200E64E01;
+			productRefGroup = 10A26EB117F0421200E64E01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10A26EAF17F0421200E64E01 /* CFHookInterface */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10A26EAA17F0421200E64E01 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		10A26EAE17F0421200E64E01 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A26EAB17F0421200E64E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A26EBF17F0421300E64E01 /* CFHookInterface.mm in Sources */,
+				10006E9317F16094002F4253 /* CFDaemonManger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10A26EC417F0421300E64E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		10A26EC517F0421300E64E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		10A26EC717F0421300E64E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = entitlements.plist;
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CFHookInterface/CFHookInterface-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		10A26EC817F0421300E64E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = entitlements.plist;
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CFHookInterface/CFHookInterface-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A26EA917F0421200E64E01 /* Build configuration list for PBXProject "CFHookInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A26EC417F0421300E64E01 /* Debug */,
+				10A26EC517F0421300E64E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A26EC617F0421300E64E01 /* Build configuration list for PBXNativeTarget "CFHookInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A26EC717F0421300E64E01 /* Debug */,
+				10A26EC817F0421300E64E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10A26EA617F0421200E64E01 /* Project object */;
+}

@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10D99E54182207140016286D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D99E53182207140016286D /* CoreFoundation.framework */; };
+		10E61AB2181F670200FC2204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E61AB1181F670200FC2204 /* Foundation.framework */; };
+		10E61ABE181F670200FC2204 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E61ABD181F670200FC2204 /* main.m */; };
+		10E61AC8181F67E300FC2204 /* CFDaemonManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E61AC6181F67E300FC2204 /* CFDaemonManger.m */; };
+		10E61ACA181F692100FC2204 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E61AC9181F692100FC2204 /* libsqlite3.dylib */; };
+		10FC655518A9D46B00741CFC /* XSDaemonMessageManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FC655418A9D46B00741CFC /* XSDaemonMessageManger.m */; };
+		10FC655718A9D48200741CFC /* AppSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FC655618A9D48200741CFC /* AppSupport.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10D99E53182207140016286D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		10E61AAE181F670200FC2204 /* seedsdaemon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = seedsdaemon; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E61AB1181F670200FC2204 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10E61AB6181F670200FC2204 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		10E61AB7181F670200FC2204 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		10E61AB9181F670200FC2204 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		10E61ABC181F670200FC2204 /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/usr/bin/0xdeadfa11; sourceTree = "<group>"; };
+		10E61ABD181F670200FC2204 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10E61ABF181F670200FC2204 /* seedsdaemon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "seedsdaemon-Prefix.pch"; sourceTree = "<group>"; };
+		10E61AC5181F67E300FC2204 /* CFDaemonManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFDaemonManger.h; sourceTree = "<group>"; };
+		10E61AC6181F67E300FC2204 /* CFDaemonManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFDaemonManger.m; sourceTree = "<group>"; };
+		10E61AC7181F67E300FC2204 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		10E61AC9181F692100FC2204 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		10FC655318A9D46B00741CFC /* XSDaemonMessageManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSDaemonMessageManger.h; sourceTree = "<group>"; };
+		10FC655418A9D46B00741CFC /* XSDaemonMessageManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSDaemonMessageManger.m; sourceTree = "<group>"; };
+		10FC655618A9D48200741CFC /* AppSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppSupport.framework; path = "../../../opt/iOS-Runtime-Headers-master/PrivateFrameworks/AppSupport.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10E61AAB181F670200FC2204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D99E54182207140016286D /* CoreFoundation.framework in Frameworks */,
+				10E61ACA181F692100FC2204 /* libsqlite3.dylib in Frameworks */,
+				10E61AB2181F670200FC2204 /* Foundation.framework in Frameworks */,
+				10FC655718A9D48200741CFC /* AppSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10E61AA5181F670200FC2204 = {
+			isa = PBXGroup;
+			children = (
+				10E61AC9181F692100FC2204 /* libsqlite3.dylib */,
+				10E61AB3181F670200FC2204 /* seedsdaemon */,
+				10E61AB0181F670200FC2204 /* Frameworks */,
+				10E61AAF181F670200FC2204 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10E61AAF181F670200FC2204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10E61AAE181F670200FC2204 /* seedsdaemon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10E61AB0181F670200FC2204 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10FC655618A9D48200741CFC /* AppSupport.framework */,
+				10D99E53182207140016286D /* CoreFoundation.framework */,
+				10E61AB1181F670200FC2204 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10E61AB3181F670200FC2204 /* seedsdaemon */ = {
+			isa = PBXGroup;
+			children = (
+				10FC655318A9D46B00741CFC /* XSDaemonMessageManger.h */,
+				10FC655418A9D46B00741CFC /* XSDaemonMessageManger.m */,
+				10E61AC5181F67E300FC2204 /* CFDaemonManger.h */,
+				10E61AC6181F67E300FC2204 /* CFDaemonManger.m */,
+				10E61AC7181F67E300FC2204 /* config.h */,
+				10E61ABD181F670200FC2204 /* main.m */,
+				10E61AB4181F670200FC2204 /* Package */,
+				10E61AB8181F670200FC2204 /* Supporting Files */,
+			);
+			path = seedsdaemon;
+			sourceTree = "<group>";
+		};
+		10E61AB4181F670200FC2204 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				10E61AB5181F670200FC2204 /* DEBIAN */,
+				10E61ABA181F670200FC2204 /* usr */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		10E61AB5181F670200FC2204 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				10E61AB6181F670200FC2204 /* control.txt */,
+				10E61AB7181F670200FC2204 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		10E61AB8181F670200FC2204 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10E61AB9181F670200FC2204 /* PackageVersion.plist */,
+				10E61ABF181F670200FC2204 /* seedsdaemon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10E61ABA181F670200FC2204 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				10E61ABB181F670200FC2204 /* bin */,
+			);
+			name = usr;
+			sourceTree = "<group>";
+		};
+		10E61ABB181F670200FC2204 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				10E61ABC181F670200FC2204 /* 0xdeadfa11 */,
+			);
+			name = bin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10E61AAD181F670200FC2204 /* seedsdaemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E61AC2181F670200FC2204 /* Build configuration list for PBXNativeTarget "seedsdaemon" */;
+			buildPhases = (
+				10E61AAA181F670200FC2204 /* Sources */,
+				10E61AAB181F670200FC2204 /* Frameworks */,
+				10E61AAC181F670200FC2204 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = seedsdaemon;
+			productName = seedsdaemon;
+			productReference = 10E61AAE181F670200FC2204 /* seedsdaemon */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10E61AA6181F670200FC2204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 10E61AA9181F670200FC2204 /* Build configuration list for PBXProject "seedsdaemon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10E61AA5181F670200FC2204;
+			productRefGroup = 10E61AAF181F670200FC2204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10E61AAD181F670200FC2204 /* seedsdaemon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10E61AAC181F670200FC2204 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E61AAA181F670200FC2204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E61ABE181F670200FC2204 /* main.m in Sources */,
+				10E61AC8181F67E300FC2204 /* CFDaemonManger.m in Sources */,
+				10FC655518A9D46B00741CFC /* XSDaemonMessageManger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10E61AC0181F670200FC2204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		10E61AC1181F670200FC2204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		10E61AC3181F670200FC2204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../opt/iOS-Runtime-Headers-master/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "seedsdaemon/seedsdaemon-Prefix.pch";
+				INSTALL_PATH = /usr/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		10E61AC4181F670200FC2204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../opt/iOS-Runtime-Headers-master/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "seedsdaemon/seedsdaemon-Prefix.pch";
+				INSTALL_PATH = /usr/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10E61AA9181F670200FC2204 /* Build configuration list for PBXProject "seedsdaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E61AC0181F670200FC2204 /* Debug */,
+				10E61AC1181F670200FC2204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E61AC2181F670200FC2204 /* Build configuration list for PBXNativeTarget "seedsdaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E61AC3181F670200FC2204 /* Debug */,
+				10E61AC4181F670200FC2204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10E61AA6181F670200FC2204 /* Project object */;
+}
